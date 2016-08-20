@@ -20,7 +20,7 @@ public class Document implements java.io.Serializable
    @org.kie.api.definition.type.Label("Załączony")
    private boolean checked;
 
-   private java.io.File data;
+   private java.lang.String  data;
 
    public Document()
    {
@@ -56,18 +56,18 @@ public class Document implements java.io.Serializable
       this.checked = checked;
    }
 
-   public java.io.File getData()
+   public java.lang.String  getData()
    {
       return this.data;
    }
 
-   public void setData(java.io.File data)
+   public void setData(java.lang.String  data)
    {
       this.data = data;
    }
 
    public Document(java.lang.Long id, java.lang.String name, boolean checked,
-         java.io.File data)
+         java.lang.String  data)
    {
       this.id = id;
       this.name = name;
