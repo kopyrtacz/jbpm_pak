@@ -1,0 +1,28 @@
+import org.drools.core.process.core.datatype.impl.type.StringDataType;
+import org.drools.core.process.core.datatype.impl.type.ObjectDataType;
+[
+  [
+    "name" : "Restmy",
+    "description" : "REST with marshal",
+    "parameters" : [
+        "Url" : new StringDataType(),
+        "Method" : new StringDataType(),
+        "ConnectTimeout" : new StringDataType(),
+        "ReadTimeout" : new StringDataType(),
+        "Username" : new StringDataType(),
+        "Password" : new StringDataType()
+    ],
+    "results" : [
+        "Result" : new ObjectDataType(),
+    ],
+    "displayName" : "Restmy",
+    "eclipse:customEditor" : "org.drools.eclipse.flow.common.editor.editpart.work.SampleCustomEditor",
+    "icon" : "restmy.png",
+    "category" : "Communication",
+    "defaultHandler" : "pl.riscosoftware.handler.RestMyHandler",
+    "documentation" : "index.html",
+    "dependencies" : [
+      "file:./lib/restmy-1.0-SNAPSHOT.jar"
+    ]
+  ]
+]

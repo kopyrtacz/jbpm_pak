@@ -1,0 +1,39 @@
+
+<form id="15961272">
+<property name="name" value="confirm-taskform.form"/>
+<property name="displayMode" value="default"/>
+<property name="status" value="0"/>
+<field position="3" name="persTest_quantity" type="InputTextPrimitiveInteger" id="599764173">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;quantity (persTest)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value="persTest/quantity"/>
+<property name="outputBinding" value="persTest/quantity"/>
+<property name="fieldClass" value="int"/>
+</field>
+<field position="0" name="persTest_checked" type="CheckBox" id="400632692">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;checked (persTest)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value="persTest/checked"/>
+<property name="outputBinding" value="persTest/checked"/>
+<property name="fieldClass" value="java.lang.Boolean"/>
+</field>
+<field position="2" name="persTest_name" type="InputText" id="1029559637">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;name (persTest)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value="persTest/name"/>
+<property name="outputBinding" value="persTest/name"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<field position="1" name="persTest_id" type="InputTextLong" id="412285752">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;id (persTest)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value="persTest/id"/>
+<property name="outputBinding" value="persTest/id"/>
+<property name="fieldClass" value="java.lang.Long"/>
+</field>
+<dataHolder inputId="persTest" name="#E9E371" type="dataModelerEntry" outId="persTest" value="demo.perstest.PersTest" id="persTest"/>
+</form>

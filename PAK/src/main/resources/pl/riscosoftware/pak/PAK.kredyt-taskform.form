@@ -1,0 +1,36 @@
+
+<form id="1945686986">
+<property name="name" value="PAK.kredyt-taskform.form"/>
+<property name="displayMode" value="default"/>
+<property name="status" value="0"/>
+<field position="0" name="customerName" type="InputText" id="1415261214">
+<property name="fieldRequired" value="true"/>
+<property name="label" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;Klientquot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="errorMessage" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="title" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="readonly" value="false"/>
+<property name="isHTML" value="false"/>
+<property name="hideContent" value="false"/>
+<property name="inputBinding" value="customerName"/>
+<property name="outputBinding" value="customerName"/>
+<property name="fieldClass" value="java.lang.String"/>
+<property name="onChangeScript" value="if(customerName.value.match(/gra.*/)) customerName.value = &apos;Marcin Grabarczyk&apos;; if(customerName.value.match(/kur.*/)) customerName.value = &apos;Piotr Kur&apos;; if(customerName.value.match(/bor.*/)) customerName.value = &apos;Slawomir Borowiec&apos;; if(customerName.value.match(/wer.*/)) customerName.value = &apos;Marcin Werner&apos;;"/>
+</field>
+<field position="1" name="creditType" type="InputText" id="1369167368">
+<property name="fieldRequired" value="true"/>
+<property name="label" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;Typ kredytuquot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="errorMessage" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="title" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="readonly" value="false"/>
+<property name="rangeFormula" value="{Kredyt w rachunku biezacym,Kredyt w rachunku biezacym; Kredyt w rachunku biezacym MIKRO,Kredyt w rachunku biezacym MIKRO; Kredyt rewolwingowy,Kredyt rewolwingowy; Kredyt obrotowy,Kredyt obrotowy; Kredyt obrotowy AGRO SKUP,Kredyt obrotowy AGRO SKUP; Kredytowa Linia Hipoteczna,Kredytowa Linia Hipoteczna; Kredyt inwestycyjny,Kredyt inwestycyjny; Kredyt szybka inwestycja AGRO,Kredyt szybka inwestycja AGRO; Kredyt szybka inwestycja,Kredyt szybka inwestycja; Kredyty ze ?rodkow Europejskiego Funduszu Rozwoju}"/>
+<property name="isHTML" value="false"/>
+<property name="hideContent" value="false"/>
+<property name="inputBinding" value="creditType"/>
+<property name="outputBinding" value="creditType"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<dataHolder inputId="" name="#BBBBBB" type="dataModelerEntry" outId="creditContract" value="pl.riscosoftware.pak.CreditContract" id="creditContract"/>
+<dataHolder inputId="creditType" name="#E9E371" type="basicType" outId="creditType" value="java.lang.String" id="creditType"/>
+<dataHolder inputId="customerName" name="#E9E371" type="basicType" outId="customerName" value="java.lang.String" id="customerName"/>
+<dataHolder inputId="" name="#9BCAFA" type="className" outId="document" value="org.jbpm.document.service.impl.DocumentImpl" id="document"/>
+</form>

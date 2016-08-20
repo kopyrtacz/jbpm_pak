@@ -1,0 +1,202 @@
+
+<form id="705126523">
+<property name="name" value="przygotowanieUmowy-taskform.form"/>
+<property name="displayMode" value="aligned"/>
+<property name="labelMode" value="left"/>
+<property name="status" value="0"/>
+<field position="0" name="creditType" type="InputText" id="1824780991">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;Typ kredytuquot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="errorMessage" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="title" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="readonly" value="true"/>
+<property name="isHTML" value="false"/>
+<property name="hideContent" value="false"/>
+<property name="inputBinding" value="creditType"/>
+<property name="outputBinding" value="creditType"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<field position="1" name=":decorator_0" type="Separator" id="215415956">
+<property name="fieldRequired" value="false"/>
+<property name="readonly" value="false"/>
+<property name="fieldClass" value="Separator"/>
+</field>
+<field position="2" name=":decorator_3" type="HTMLLabel" id="1038761429">
+<property name="fieldRequired" value="false"/>
+<property name="groupWithPrevious" value="false"/>
+<property name="readonly" value="false"/>
+<property name="htmlContent" value="quot;caquot;,quot;&lt;p&gt;&lt;strong&gt;Klient:&lt;/strong&gt;&lt;/p&gt; quot;quot;dequot;,quot;&lt;p&gt;&lt;strong&gt;Klient:&lt;/strong&gt;&lt;/p&gt; quot;quot;enquot;,quot;&lt;p&gt;&lt;strong&gt;Klient:&lt;/strong&gt;&lt;/p&gt; quot;quot;esquot;,quot;&lt;p&gt;&lt;strong&gt;Klient:&lt;/strong&gt;&lt;/p&gt; quot;quot;frquot;,quot;&lt;p&gt;&lt;strong&gt;Klient:&lt;/strong&gt;&lt;/p&gt; quot;quot;jaquot;,quot;&lt;p&gt;&lt;strong&gt;Klient:&lt;/strong&gt;&lt;/p&gt; quot;quot;ptquot;,quot;&lt;p&gt;&lt;strong&gt;Klient:&lt;/strong&gt;&lt;/p&gt; quot;quot;zhquot;,quot;&lt;p&gt;&lt;strong&gt;Klient:&lt;/strong&gt;&lt;/p&gt; quot;"/>
+<property name="fieldClass" value="HTMLlabel"/>
+</field>
+<field position="3" name="creditContract_customer" type="Subform" id="38045884">
+<property name="fieldRequired" value="false"/>
+<property name="groupWithPrevious" value="false"/>
+<property name="label" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="errorMessage" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="title" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value="creditContract/customer"/>
+<property name="outputBinding" value="creditContract/customer"/>
+<property name="defaultSubform" value="Customer.form"/>
+<property name="fieldClass" value="java.lang.Object"/>
+</field>
+<field position="4" name=":decorator_1" type="Separator" id="1823576935">
+<property name="fieldRequired" value="false"/>
+<property name="readonly" value="false"/>
+<property name="fieldClass" value="Separator"/>
+</field>
+<field position="5" name="creditContract_trancheNumber" type="InputTextPrimitiveInteger" id="1167469908">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;Liczba transzquot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="errorMessage" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="title" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="readonly" value="false"/>
+<property name="size" value="10"/>
+<property name="inputBinding" value="creditContract/trancheNumber"/>
+<property name="outputBinding" value="creditContract/trancheNumber"/>
+<property name="fieldClass" value="int"/>
+</field>
+<field position="6" name="creditContract_trancheDate" type="InputDate" id="1317033225">
+<property name="fieldRequired" value="false"/>
+<property name="groupWithPrevious" value="true"/>
+<property name="label" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;Data pierwszej transzyquot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="errorMessage" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="title" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value="creditContract/trancheDate"/>
+<property name="outputBinding" value="creditContract/trancheDate"/>
+<property name="fieldClass" value="java.util.Date"/>
+</field>
+<field position="7" name="creditContract_contractDate" type="InputDate" id="1482739702">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;Data umowyquot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="errorMessage" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="title" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value="creditContract/contractDate"/>
+<property name="outputBinding" value="creditContract/contractDate"/>
+<property name="fieldClass" value="java.util.Date"/>
+</field>
+<field position="8" name=":decorator_2" type="Separator" id="1689811365">
+<property name="fieldRequired" value="false"/>
+<property name="groupWithPrevious" value="false"/>
+<property name="readonly" value="false"/>
+<property name="fieldClass" value="Separator"/>
+</field>
+<field position="9" name=":decorator_5" type="HTMLLabel" id="609734749">
+<property name="fieldRequired" value="false"/>
+<property name="groupWithPrevious" value="false"/>
+<property name="readonly" value="false"/>
+<property name="htmlContent" value="quot;caquot;,quot;&lt;p&gt;&lt;strong&gt;Dokumenty:&lt;/strong&gt;&lt;/p&gt; quot;quot;dequot;,quot;&lt;p&gt;&lt;strong&gt;Dokumenty:&lt;/strong&gt;&lt;/p&gt; quot;quot;enquot;,quot;&lt;p&gt;&lt;strong&gt;Dokumenty:&lt;/strong&gt;&lt;/p&gt; quot;quot;esquot;,quot;&lt;p&gt;&lt;strong&gt;Dokumenty:&lt;/strong&gt;&lt;/p&gt; quot;quot;frquot;,quot;&lt;p&gt;&lt;strong&gt;Dokumenty:&lt;/strong&gt;&lt;/p&gt; quot;quot;jaquot;,quot;&lt;p&gt;&lt;strong&gt;Dokumenty:&lt;/strong&gt;&lt;/p&gt; quot;quot;ptquot;,quot;&lt;p&gt;&lt;strong&gt;Dokumenty:&lt;/strong&gt;&lt;/p&gt; quot;quot;zhquot;,quot;&lt;p&gt;&lt;strong&gt;Dokumenty:&lt;/strong&gt;&lt;/p&gt; quot;"/>
+<property name="fieldClass" value="HTMLlabel"/>
+</field>
+<field position="11" name="creditContract_documentList" bag-type="pl.riscosoftware.pak.Document" type="MultipleSubform" id="2078615044">
+<property name="fieldRequired" value="false"/>
+<property name="groupWithPrevious" value="false"/>
+<property name="label" value="quot;SSClassquot;,quot;quot;quot;SSStylequot;,quot;quot;quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="errorMessage" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="title" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value="creditContract/documentList"/>
+<property name="outputBinding" value="creditContract/documentList"/>
+<property name="defaultSubform" value="DocumentConfirm.form"/>
+<property name="previewSubform" value="DocumentConfirm.form"/>
+<property name="tableSubform" value="DocumentConfirm.form"/>
+<property name="newItemText" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;Zapiszquot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="addItemText" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;Dodajquot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="cancelItemText" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;Anulujquot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="deleteItems" value="false"/>
+<property name="updateItems" value="false"/>
+<property name="visualizeItems" value="false"/>
+<property name="hideCreateItem" value="true"/>
+<property name="expanded" value="true"/>
+<property name="enableTableEnterData" value="false"/>
+<property name="fieldClass" value="java.util.List"/>
+</field>
+<field position="13" name=":decorator_6" type="Separator" id="255141772">
+<property name="fieldRequired" value="false"/>
+<property name="groupWithPrevious" value="false"/>
+<property name="readonly" value="false"/>
+<property name="fieldClass" value="Separator"/>
+</field>
+<field position="12" name="creditContract_convenant" bag-type="pl.riscosoftware.pak.Convenant" type="MultipleSubform" id="1650482025">
+<property name="fieldRequired" value="false"/>
+<property name="groupWithPrevious" value="true"/>
+<property name="label" value="quot;SSClassquot;,quot;quot;quot;SSStylequot;,quot;quot;quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="errorMessage" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="title" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="readonly" value="true"/>
+<property name="inputBinding" value="creditContract/convenantList"/>
+<property name="outputBinding" value="creditContract/convenantList"/>
+<property name="defaultSubform" value="Convenant.form"/>
+<property name="previewSubform" value="Convenant.form"/>
+<property name="tableSubform" value="Convenant.form"/>
+<property name="newItemText" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;Zapiszquot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="addItemText" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;Dodajquot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="cancelItemText" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;Anulujquot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="deleteItems" value="false"/>
+<property name="updateItems" value="false"/>
+<property name="visualizeItems" value="false"/>
+<property name="hideCreateItem" value="true"/>
+<property name="expanded" value="true"/>
+<property name="enableTableEnterData" value="false"/>
+<property name="fieldClass" value="java.util.List"/>
+</field>
+<field position="15" name="creditContract_trancheList" bag-type="pl.riscosoftware.pak.Tranche" type="MultipleSubform" id="1442029468">
+<property name="fieldRequired" value="false"/>
+<property name="groupWithPrevious" value="false"/>
+<property name="label" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="errorMessage" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="title" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="readonly" value="true"/>
+<property name="inputBinding" value="creditContract/trancheList"/>
+<property name="outputBinding" value="creditContract/trancheList"/>
+<property name="defaultSubform" value="Tranche.form"/>
+<property name="previewSubform" value="Tranche.form"/>
+<property name="tableSubform" value="Tranche.form"/>
+<property name="newItemText" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;Zapiszquot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="addItemText" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;Dodajquot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="cancelItemText" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;Anulujquot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="deleteItems" value="false"/>
+<property name="updateItems" value="false"/>
+<property name="visualizeItems" value="false"/>
+<property name="hideCreateItem" value="true"/>
+<property name="expanded" value="false"/>
+<property name="enableTableEnterData" value="false"/>
+<property name="fieldClass" value="java.util.List"/>
+</field>
+<field position="10" name=":decorator_4" type="HTMLLabel" id="1512537560">
+<property name="fieldRequired" value="false"/>
+<property name="groupWithPrevious" value="true"/>
+<property name="readonly" value="false"/>
+<property name="htmlContent" value="quot;caquot;,quot;&lt;p&gt;&lt;strong&gt;Kowenanty:&lt;/strong&gt;&lt;/p&gt;
+quot;quot;dequot;,quot;&lt;p&gt;&lt;strong&gt;Kowenanty:&lt;/strong&gt;&lt;/p&gt;
+quot;quot;enquot;,quot;&lt;p&gt;&lt;strong&gt;Kowenanty:&lt;/strong&gt;&lt;/p&gt;
+quot;quot;esquot;,quot;&lt;p&gt;&lt;strong&gt;Kowenanty:&lt;/strong&gt;&lt;/p&gt;
+quot;quot;frquot;,quot;&lt;p&gt;&lt;strong&gt;Kowenanty:&lt;/strong&gt;&lt;/p&gt;
+quot;quot;jaquot;,quot;&lt;p&gt;&lt;strong&gt;Kowenanty:&lt;/strong&gt;&lt;/p&gt;
+quot;quot;ptquot;,quot;&lt;p&gt;&lt;strong&gt;Kowenanty:&lt;/strong&gt;&lt;/p&gt;
+quot;quot;zhquot;,quot;&lt;p&gt;&lt;strong&gt;Kowenanty:&lt;/strong&gt;&lt;/p&gt;
+quot;"/>
+<property name="fieldClass" value="HTMLlabel"/>
+</field>
+<field position="14" name=":decorator_7" type="HTMLLabel" id="1720041176">
+<property name="fieldRequired" value="false"/>
+<property name="groupWithPrevious" value="false"/>
+<property name="readonly" value="false"/>
+<property name="htmlContent" value="quot;caquot;,quot;&lt;p&gt;&lt;strong&gt;Transze:&lt;/strong&gt;&lt;/p&gt;
+quot;quot;dequot;,quot;&lt;p&gt;&lt;strong&gt;Transze:&lt;/strong&gt;&lt;/p&gt;
+quot;quot;enquot;,quot;&lt;p&gt;&lt;strong&gt;Transze:&lt;/strong&gt;&lt;/p&gt;
+quot;quot;esquot;,quot;&lt;p&gt;&lt;strong&gt;Transze:&lt;/strong&gt;&lt;/p&gt;
+quot;quot;frquot;,quot;&lt;p&gt;&lt;strong&gt;Transze:&lt;/strong&gt;&lt;/p&gt;
+quot;quot;jaquot;,quot;&lt;p&gt;&lt;strong&gt;Transze:&lt;/strong&gt;&lt;/p&gt;
+quot;quot;ptquot;,quot;&lt;p&gt;&lt;strong&gt;Transze:&lt;/strong&gt;&lt;/p&gt;
+quot;quot;zhquot;,quot;&lt;p&gt;&lt;strong&gt;Transze:&lt;/strong&gt;&lt;/p&gt;
+quot;"/>
+<property name="fieldClass" value="HTMLlabel"/>
+</field>
+<dataHolder inputId="creditContract" name="#E9E371" type="dataModelerEntry" outId="creditContract" value="pl.riscosoftware.pak.CreditContract" id="creditContract"/>
+<dataHolder inputId="creditType" name="#E9E371" type="basicType" outId="creditType" value="java.lang.String" id="creditType"/>
+<dataHolder inputId="customerName" name="#E9E371" type="basicType" outId="customerName" value="java.lang.String" id="customerName"/>
+<dataHolder inputId="document" name="#9BCAFA" type="className" outId="" value="org.jbpm.document.service.impl.DocumentImpl" id="document"/>
+</form>

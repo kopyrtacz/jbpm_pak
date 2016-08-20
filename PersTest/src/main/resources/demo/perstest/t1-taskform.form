@@ -1,0 +1,31 @@
+
+<form id="1627650286">
+<property name="name" value="t1-taskform.form"/>
+<property name="displayMode" value="default"/>
+<property name="status" value="0"/>
+<field position="0" name="persTest_id" type="InputTextLong" id="1077251219">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;id (persTest)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value="persTest/id"/>
+<property name="outputBinding" value="persTest/id"/>
+<property name="fieldClass" value="java.lang.Long"/>
+</field>
+<field position="1" name="persTest_name" type="InputText" id="685449604">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;name (persTest)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value="persTest/name"/>
+<property name="outputBinding" value="persTest/name"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<field position="2" name="persTest_quantity" type="InputTextPrimitiveInteger" id="1305869754">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;quantity (persTest)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value="persTest/quantity"/>
+<property name="outputBinding" value="persTest/quantity"/>
+<property name="fieldClass" value="int"/>
+</field>
+<dataHolder inputId="persTest" name="#E9E371" type="dataModelerEntry" outId="persTest" value="demo.perstest.PersTest" id="persTest"/>
+</form>
