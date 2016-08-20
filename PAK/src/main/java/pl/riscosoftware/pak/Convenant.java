@@ -51,6 +51,11 @@ public class Convenant implements java.io.Serializable
    {
       return this.checked;
    }
+   
+      public boolean getChecked()
+   {
+      return this.checked;
+   }
 
    public void setChecked(boolean checked)
    {
