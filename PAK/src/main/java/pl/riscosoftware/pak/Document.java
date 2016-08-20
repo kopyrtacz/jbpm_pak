@@ -9,9 +9,9 @@ public class Document implements java.io.Serializable
 
    static final long serialVersionUID = 1L;
 
-   @javax.persistence.GeneratedValue(generator = "DOCUMENT_ID_GENERATOR", strategy = javax.persistence.GenerationType.AUTO)
+   @javax.persistence.GeneratedValue(strategy = javax.persistence.GenerationType.AUTO, generator = "DOCUMENT_ID_GENERATOR")
    @javax.persistence.Id
-   @javax.persistence.SequenceGenerator(sequenceName = "DOCUMENT_ID_SEQ", name = "DOCUMENT_ID_GENERATOR")
+   @javax.persistence.SequenceGenerator(name = "DOCUMENT_ID_GENERATOR", sequenceName = "DOCUMENT_ID_SEQ")
    private java.lang.Long id;
 
    @org.kie.api.definition.type.Label("Nazwa")
@@ -20,8 +20,7 @@ public class Document implements java.io.Serializable
    @org.kie.api.definition.type.Label("Załączony")
    private boolean checked;
 
-   @org.kie.api.definition.type.Label(value = "Dokument")
-   private org.jbpm.document.service.impl.DocumentImpl data;
+   private org.jbpm.document.Document data;
 
    public Document()
    {
@@ -57,22 +56,23 @@ public class Document implements java.io.Serializable
       this.checked = checked;
    }
 
-   public org.jbpm.document.service.impl.DocumentImpl getData()
+   public org.jbpm.document.Document getData()
    {
       return this.data;
    }
 
-   public void setData(org.jbpm.document.service.impl.DocumentImpl data)
+   public void setData(org.jbpm.document.Document data)
    {
       this.data = data;
    }
 
    public Document(java.lang.Long id, java.lang.String name, boolean checked,
-         java.lang.String data)
+         org.jbpm.document.Document data)
    {
       this.id = id;
       this.name = name;
       this.checked = checked;
+      this.data = data;
    }
 
 }
