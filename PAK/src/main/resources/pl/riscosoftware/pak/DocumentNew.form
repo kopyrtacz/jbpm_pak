@@ -24,7 +24,7 @@
 <property name="outputBinding" value="document/id"/>
 <property name="fieldClass" value="java.lang.Long"/>
 </field>
-<field position="2" name="document_data" type="CustomInput" id="1053193579">
+<field position="2" name="document_data" type="InputText" id="1053193579">
 <property name="fieldRequired" value="true"/>
 <property name="label" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;data (document)quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
 <property name="errorMessage" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
