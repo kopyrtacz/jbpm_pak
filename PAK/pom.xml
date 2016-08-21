@@ -4,7 +4,7 @@
   <modelVersion>4.0.0</modelVersion>
   <groupId>pl.riscosoftware</groupId>
   <artifactId>PAK</artifactId>
-  <version>1.0.35</version>
+  <version>1.0.36</version>
   <name>PAK</name>
   <build>
     <plugins>
