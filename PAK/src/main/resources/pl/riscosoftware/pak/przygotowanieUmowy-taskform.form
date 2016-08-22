@@ -143,25 +143,7 @@
 <property name="enableTableEnterData" value="false"/>
 <property name="fieldClass" value="java.util.List"/>
 </field>
-<field position="12" name="1713762508" type="Document" id="1713762508">
-<property name="fieldRequired" value="false"/>
-<property name="label" value="quot;SSClassquot;,quot;quot;quot;SSStylequot;,quot;quot;quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;Document12quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
-<property name="errorMessage" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
-<property name="readonly" value="false"/>
-<property name="inputBinding" value="doc"/>
-<property name="outputBinding" value="doc"/>
-<property name="fieldClass" value="org.jbpm.document.Document"/>
-</field>
-<field position="13" name="customerName" type="InputText" id="1660524723">
-<property name="fieldRequired" value="false"/>
-<property name="label" value="quot;enquot;,quot;customerName (customerName)quot;"/>
-<property name="readonly" value="false"/>
-<property name="inputBinding" value="customerName"/>
-<property name="outputBinding" value="customerName"/>
-<property name="fieldClass" value="java.lang.String"/>
-</field>
 <dataHolder inputId="creditContract" name="#E9E371" type="dataModelerEntry" outId="creditContract" value="pl.riscosoftware.pak.CreditContract" id="creditContract"/>
 <dataHolder inputId="creditType" name="#E9E371" type="basicType" outId="creditType" value="java.lang.String" id="creditType"/>
 <dataHolder inputId="customerName" name="#E9E371" type="basicType" outId="customerName" value="java.lang.String" id="customerName"/>
-<dataHolder inputId="doc" name="#E9E371" type="className" outId="doc" value="org.jbpm.document.Document" id="doc"/>
 </form>
